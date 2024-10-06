@@ -1,0 +1,12 @@
+[package]
+name = "raw2exr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.19", features = ["derive"] }
+color_stuff = { git = "https://github.com/MarimeGui/color_stuff.git", features = ["exr"] }
+exr = "1.72.0"
+itertools = "0.13.0"
+nalgebra = "0.33.0"
+rawloader = "0.37.1"
